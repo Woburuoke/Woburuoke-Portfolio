@@ -21,6 +21,3 @@ app.get("/", (req, res) =>{
     res.render("home")
 })
 
-app.get("/aboutme", (req, res) =>{
-    res.render("aboutme")
-})

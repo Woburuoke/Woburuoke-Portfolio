@@ -17,11 +17,6 @@
 <body class="p-0 m-0">
 
         <%- include("./navbar") %>
-        
-            <!-- <img class="zchild"
-                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNzI1IiBoZWlnaHQ9Ijk5MCIgdmlld0JveD0iMCAwIDcyNSA5OTAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHg9IjY2My45NzMiIHk9Ii00NTQiIHdpZHRoPSIxMjcwLjAzIiBoZWlnaHQ9IjkzOSIgcng9IjE1IiB0cmFuc2Zvcm09InJvdGF0ZSg0NSA2NjMuOTczIC00NTQpIiBmaWxsPSJ1cmwoI3BhaW50MF9saW5lYXIpIi8+CjxkZWZzPgo8bGluZWFyR3JhZGllbnQgaWQ9InBhaW50MF9saW5lYXIiIHgxPSI2NjMuOTczIiB5MT0iLTQ1NCIgeDI9IjE1NTkuNjMiIHkyPSI3NTcuNDEyIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CjxzdG9wIHN0b3AtY29sb3I9IiM2QTk4RjAiLz4KPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjNDk2MURDIi8+CjwvbGluZWFyR3JhZGllbnQ+CjwvZGVmcz4KPC9zdmc+Cg=="
-                alt=""> 
-         -->
 
         <main class="row m-0 px-0 gx-0">
             <div class="col-md-10 offset-md-1 g-0">
@@ -35,9 +30,9 @@
                         <p class="fs-4 fw-light mb-4">CREATIVE FULL-STACK DEVELOPER</p>
                         <button class="btn btn-info text-nowrap mb-4">Download Resume</button>
                         <div class="socials">
-                            <i class="fab fa-github me-3"></i>
-                            <i class="fab fa-twitter me-3"></i>
-                            <i class="fab fa-linkedin"></i>
+                            <a href="https://github.com/woburuoke"><i class="fab fa-github me-3"></i></a>
+                            <a href="https://linkedin.com/in/favour-woboh-365445207"><i class="fab fa-linkedin me-3"></i></a>
+                            <a href="https://twitter.com/favour_woboh"><i class="fab fa-twitter"></i></a>
                         </div>
                     </article>
                     <div class="ms-sm-auto  codeParent ">
@@ -72,7 +67,7 @@
 
                 </section>
 
-                <section class=" row   mx-4 mx-md-0 my-5 gx-3 border border-info rounded-3" aria-label="About Me">
+                <section class=" row   mx-4 mx-md-0 my-5 gx-3 border border-info rounded-3" aria-label="About Me" id="aboutMe">
 
 
                     <div class="col-sm-5 sec1 col-lg-5  d-flex justify-content-center align-items-center shadow-lg ">
@@ -97,11 +92,11 @@
 
 
                             <div class="mb-4 mb-sm-1 mb-md-2">
-                                <p class="text-dark aboutText">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                    Adipisci minus
-                                    laboriosam doloremque architecto temporibus sunt dolores, velit iure
-                                    assumenda cupiditate, perferendis commodi fuga qui, iusto omnis possimus
-                                    laborum! Harum, illum!
+                                <p class="text-dark aboutText">
+                                    Hi, I'm Woboh Favour, Full-Stack developer with a passion for
+                                    building modern, interactive web solutions. I have made countless projects using varying 
+                                    languages and technologies. I am constantly learning to keep up the ever-changing nature
+                                    of web development
                                 </p>
                             </div>
 
@@ -121,7 +116,7 @@
                         <i class="fab fa-java"></i>
                         <i class="fab fa-js"></i>
                         <i class="fab fa-node"></i>
-                        <i class="fab fa-html5"></i>
+                        <i class="fab fa-react"></i>
 
 
 
@@ -132,15 +127,52 @@
 
                 </section>
 
-                <section class=" row   mx-4 mx-md-0 px-0" aria-labelledby="projects">
+                <section class=" row   mx-4 mx-md-0 px-0" aria-labelledby="projects" id="projects">
                     <h2 class="text-info text-center fw-bold mb-5" id="projects">Projects</h2>
-                    <div class="row border border-info rounded-3 px-0 m-0">
+
+                    <div class="row border border-info rounded-3 px-0 mx-0 mb-5">
+                        <article class="col-sm-6 col-lg-5 d-flex flex-column justify-content-around justify-content-lg-evenly align-items-center  project  px-4 py-3 shadow-lg">
+                            <h3 class="fw-bold fs-3 align-self-start my- text-dark">Dojo Blog</h3>
+                            <p class="mb- text-dark">
+                                Dojo blog is a webservice that aims to provide knowledge on relevant topics, increase engagement
+                                and create a community, by building relationship's between the company and it's audience. Dojo Blog
+                                privides its users with easily accessible information on a wide variety of topics, ranging from tech 
+                                to food and lifestyle.
+
+                            </p>
+                            <div class="align-self-start mb- socials">
+                                <a href="https://dojo-blog-gray.vercel.app/"><button class="btn btn-outline-dark ">View Project</button></a>
+                                <i class="fab fa-github"></i>
+                            </div>
+
+
+                        </article>
+                        <div
+                            class="col-sm-6 col-lg-7 d-flex flex-column  align-items-center justify-content-center justify-content-sm-around justify-content-md-center  shadow-lg px-4  py-sm-0 py-lg-4">
+                            <div>
+                                <img src="https://images.unsplash.com/photo-1471107340929-a87cd0f5b5f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YmxvZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                                    alt="project image" class="img-fluid  rounded py-3">
+                                <div class="align-self-start ms- projectSocials">
+
+                                    <i class="fab fa-react"></i>
+                                    <i class="fab fa-js"></i>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+                    <div class="row border border-info rounded-3 px-0 mx-0 mt-5">
                         <article class="col-sm-6 col-lg-5 d-flex flex-column justify-content-around justify-content-lg-evenly align-items-center  project  px-4 py-3 shadow-lg">
                             <h3 class="fw-bold fs-3 align-self-start my- text-dark">Obo-Care</h3>
-                            <p class="mb- text-dark">Lorem, ipsum dols ills ipsum. Et ducimus eum at perspiciatis
-                                perferendis!
-                                Totam molestiae deserunt, eaque accusint ibero nesciunt nobis molestias quidem op tio
-                                architecto eligendi dolore.</p>
+                            <p class="mb- text-dark">
+                                Obo-Care is a service that lets hotels and property owners rent 
+                                out their spaces to travelers looking for a place to stay. Travelers can rent a space for 
+                                multiple people to share, a shared space with private rooms, or the entire property.
+                                Obo-Care acts as a broker and charges a commission from each booking.
+                            </p>
                             <div class="align-self-start mb- socials">
                                 <button class="btn btn-outline-dark ">View Project</button>
                                 <i class="fab fa-github"></i>
@@ -166,12 +198,12 @@
 
                 </section>
 
-                <section class="row mx-4 mx-md-0 my-5" aria-labelledby="contactMe">
+                <section class="row mx-4 mx-md-0 my-5" aria-labelledby="contactMe" id="contactMe">
 
                     <h2 class="text-info text-center fw-bold my-5" id="contactMe">Contact Me</h2>
                     
 
-                    <!-- align-items-center justify-content-center -->
+                    
                     <div class="row border border-info rounded-3 px-0 m-0">
                         <div
                             class="col-sm-6 col-lg-4 d-flex flex-column justify-content-center align-items-center  bg-info  shadow">

@@ -1,11 +1,7 @@
-*
-{
-    outline: 1px solid red;
+a, a:hover, a:visited, a:active {
+    color: inherit;
+    text-decoration: none;
 }
-/* .landing
-{
-    height: 100vh;
-} */
 
 .codeParent
 {
@@ -13,11 +9,8 @@
 }
 .wbox
 {
-    /* height: 50px;   */
-    /* width: 250px;   */
+   
     background-color: #fff;
-    
-    /*  */
     margin-top: -6%;
     left: 12.5%;
     position: relative;
@@ -26,7 +19,6 @@
 }
 .ibox
 {
-    /* height: 1rem; */
     width: 15%;
     padding-bottom: 15%;
 }
@@ -44,17 +36,6 @@
     
 } 
 
-body
-{
-     /* overflow-x: hidden;  */
-}
-.z
-{
-    
-    /* margin-top: -1018px; */
-    /* z-index: 1; */
-    
-}
 .zchild
 {
     /* float: right; */
@@ -71,43 +52,20 @@ body
     font-size: 1.7rem;
 }
 
-.sec1
-{
-    /* background-color: #0dcaf0; */
-    /* height: 25rem; */
-     /* padding-left: 10%;  */
-     /* position: relative; */
-     
-     
-}
-.sec2
-{
-    /* background-color: #0dcaf0; */
-    /* height: 25rem; */
-}
 .stripe
 {
     width: 45%;
-    /* bottom: 30%; */
     margin-top: -30%;
-    left: 15%;
-     
+    left: 15%; 
     border-radius: 50%;
     background: repeating-linear-gradient(45deg, #0dcaf0, #0dcaf0 5px,#fff 5px,#fff 10px);
-     position: relative;
-     padding-bottom: 45%;
-    /* margin-left: -35%;
-    margin-bottom: -25%; */
-    /* z-index: 1; */
+    position: relative;
+    padding-bottom: 45%;
     opacity: 0.7;
 }
 
-
-
 .outer {
     width: 45%;
-    
-    
     border-radius: 50%;
     padding-bottom: 45%;
     background: #0dcaf0;
@@ -120,32 +78,24 @@ body
 
 .inner {
     width: 75%;
-    /* height: 75%; */
     background: #fff; 
     border-radius: 50%;
     padding-bottom: 75%;
     position: absolute;
     margin-top: 12.5%;
     margin-left: 12.5%;
-     /* top: 12.5%;
-    left: 12.5%;  */
 } 
 
 .bar
 {
     width: 70%;
     padding-bottom: 9%;
-    /* background-color: #c8a2c8; */
 }
 .bold
 {
     position: absolute;
     font-size: 2vw;
-    /* width: 70%;
-    padding-bottom: %; */
-    
-    /* right: 18%;*/
-     bottom: 30%; 
+    bottom: 30%; 
     z-index: 2;
 }
 .skillset
@@ -180,11 +130,6 @@ body
     font-size: 7rem;
     
 }
-/* .projectDisplay
-{
-    height: 80%;
-    width: 85%;
-} */
 .project
 {
     background-color: #0dcaf0;
@@ -209,9 +154,7 @@ body
 }
 
 @media screen and (max-width: 576px) {
-
-
-  
+ 
 .bold
 {
     font-size: 5vw;
@@ -223,11 +166,6 @@ body
 }
 
 }
-
-
-  
-    
-    
 
  @media screen and (min-width: 768px) {
     .landing
