@@ -152,6 +152,11 @@ a, a:hover, a:visited, a:active {
 {
     height: 8rem;
 }
+.jsp
+{
+    display: inline;
+    font-size: 1.4rem;
+}
 
 @media screen and (max-width: 576px) {
  
